@@ -1,0 +1,16 @@
+button {
+    font-size: $tamanho-medio;
+    border-radius: 20px;
+    padding: 10px 20px;
+    outline: none;
+}
+
+.button-highlight {
+    background-color: $cor-bg-vermelho;
+    color: $cor-branca;
+}
+
+.button-success {
+    background-color: $cor-bg-verde;
+    color: $cor-branca;
+}
