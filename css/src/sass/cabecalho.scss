@@ -1,15 +1,15 @@
-header.main {
+header.principal {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
-header.main button {
+header.principal button {
     margin: 5px;
 }
 
 @media(max-width: $largura-celular) {
-    header.main {
+    header.principal {
         justify-content: center;
     }
 }

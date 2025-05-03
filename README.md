@@ -26,3 +26,13 @@ Concat (short for concatenate) refers to the process of combining multiple files
 Why Use Concatenation?
 - Reduces the number of HTTP requests, which is crucial for performance optimization, especially when loading scripts or stylesheets.
 - Helps with managing multiple files by combining them into a single bundle.
+
+## **SASS**
+SASS (Syntactically Awesome Style Sheets) is a CSS preprocessor—a scripting language that extends CSS with features that make stylesheets more powerful and maintainable.
+It compiles into standard CSS, so browsers can use it normally.
+- Variables – Store reusable values like colors, fonts, sizes.
+- Nesting – Write hierarchical CSS that mirrors your HTML.
+- Mixins – Define reusable chunks of styles.
+- Inheritance – Use @extend to share a set of CSS rules.
+- Functions & Operations – Perform calculations and logic inside styles.
+**https://sass-lang.com/**
