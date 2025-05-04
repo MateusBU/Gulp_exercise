@@ -33,6 +33,12 @@ function appIMG(){
         .pipe(gulp.dest('build/assets/imgs'));
 }
 
+gulp.task('appHtml', appHtml); // 'appHtml' points to the function appHtml
+//so it can be used to monitor, for example. function monitorFile
+gulp.task('appCSS', appCSS);
+gulp.task('appJS', appJS);
+gulp.task('appIMG', appIMG);
+
 module.exports = {
     appHtml,
     appCSS,
